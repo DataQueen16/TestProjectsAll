@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "hear-me-type-tutorial",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Play a sound for every keyboard that you press",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -14,9 +14,12 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "Jennifer Walker",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^5.0.0"
+  },
+  "dependencies": {
+    "npm": "^6.9.0"
   }
 }
